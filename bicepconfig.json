@@ -1,0 +1,52 @@
+{
+    // See https://aka.ms/bicep/config for more information on Bicep configuration options
+    // Press CTRL+SPACE/CMD+SPACE at any location to see Intellisense suggestions
+    "analyzers": {
+        "core": {
+            "rules": {
+                "no-unused-params": {
+                    "level": "warning"
+                },
+                "no-hardcoded-location": {
+                    "level": "warning"
+                },
+                "adminusername-should-not-be-literal": {
+                    "level": "error"
+                }
+            }
+        }
+    },
+    "cacheRootDirectory": "/users/stefanivemo/bicepCache",
+    "moduleAliases": {
+        "br": {
+            "swetuggModules": {
+                "registry": "swetugg2023.azurecr.io"
+            },
+            "myModules": {
+                "registry": "bicepmodules.azurecr.io",
+                "modulePath": "modules/core"
+            }
+        },
+        "ts": {
+            "tuggSpecs": {
+                "subscription": "30247484-29d4-4b25-b07a-4357febd372e",
+                "resourceGroup": "swetugg-2023-rg"
+              }
+        }
+    },
+    "cloud": {
+        "credentialPrecedence": [
+            "AzurePowerShell",
+            "AzureCLI"
+        ],
+        "currentProfile": "AzureCloud"
+    },
+    "experimentalFeaturesEnabled": {
+        "userDefinedTypes": true,
+        "paramsFiles": true,
+        "extensibility": true,
+        "resourceTypedParamsAndOutputs": false,
+        "sourceMapping": false,
+        "symbolicNameCodegen": false
+    }
+}
