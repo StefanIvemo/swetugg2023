@@ -38,4 +38,4 @@ module keyVault 'modules/keyvault_generic.bicep' = {
   }
 }
 
-output id string = storage.id
+output storageId string = storage.id
