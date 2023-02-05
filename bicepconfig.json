@@ -33,7 +33,7 @@
         "sourceMapping": false,
         "symbolicNameCodegen": false
     },
-    "cacheRootDirectory": "/users/stefanivemo/bicepCache",
+    "cacheRootDirectory": "C:\\users\\stefanivemo\\bicepCache",
     "moduleAliases": {
         "br": {
             "swetuggModules": {
