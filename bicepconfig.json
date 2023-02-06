@@ -7,10 +7,10 @@
             "verbose": true,
             "rules": {
                 "no-unused-params": {
-                    "level": "warning"
+                    "level": "error"
                 },
                 "no-hardcoded-location": {
-                    "level": "warning"
+                    "level": "off"
                 },
                 "adminusername-should-not-be-literal": {
                     "level": "error"
@@ -19,11 +19,11 @@
         }
     },
     "cloud": {
+        "currentProfile": "AzureCloud",
         "credentialPrecedence": [
             "AzurePowerShell",
             "AzureCLI"
-        ],
-        "currentProfile": "AzureCloud"
+        ]
     },
     "experimentalFeaturesEnabled": {
         "userDefinedTypes": true,
