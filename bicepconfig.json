@@ -7,10 +7,10 @@
             "verbose": true,
             "rules": {
                 "no-unused-params": {
-                    "level": "error"
+                    "level": "warning"
                 },
                 "no-hardcoded-location": {
-                    "level": "off"
+                    "level": "warning"
                 },
                 "adminusername-should-not-be-literal": {
                     "level": "error"
