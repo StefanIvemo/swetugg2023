@@ -4,7 +4,7 @@ param name string
 param location string
 
 resource cae 'Microsoft.App/managedEnvironments@2022-06-01-preview' existing = {
-  name: 'steffes-cae'
+  name: 'swetugg-cae'
 }
 
 resource ca 'Microsoft.App/containerApps@2022-06-01-preview' = {
